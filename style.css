@@ -1,0 +1,89 @@
+ul{
+    list-style-type: none;
+    margin: -10px !important;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    }
+
+li{
+}
+
+
+#logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    padding:14px 16px;
+    text-align: center;
+    text-decoration: none;
+        float: right;
+
+}
+
+ .navlink{
+    float: center;
+        padding:4px 6px;
+    display: inline-block;
+
+}
+
+body {
+    background-image: url("img/aven.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.titre{
+    color: black;
+    font-family: "montserrat", sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 20px;
+    width: 500px;
+    height: 400px;
+    font-weight: bold;
+    font-size: 60px;
+}
+p{
+font-family: "montserrat", sans-serif;
+ width: 300px;
+ height: 200px;
+          font-size: 1rem;
+          position: fixed;
+          top: 85%;
+          left: 20px;
+              position: absolute;
+
+}
+
+/*.footer {
+position: block;
+width: 100%;
+left: 0;
+margin-left: -10px;
+padding-right: 20px;
+bottom: 0;
+color: maroon;
+text-align: center;
+background-color: black;
+
+}*/
+
+.footer {
+    display: block;
+        background-color: black  ;
+        color: white;
+        line-height: 50px;
+    margin-top: 1000px;
+    margin-bottom: -30px !important;
+        text-align: center;
+margin-left: -10px;
+margin-right: -10px;
+position: relative;
+
+}
